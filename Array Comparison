@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+//Declaration
+void inputArr(int Arr[], int size);
+void Largest(int Arr1[], int Arr2[], int size);
+//Main Function
+int main(){
+    int i;
+    int maxSize;
+    printf("Input Max size of an Array Here: ");
+    scanf("%d", &maxSize);
+
+    int Arr1[maxSize], Arr2[maxSize];
+
+    printf("Input Max size of an Array 1 Down Bellow! \n");
+    inputArr(Arr1, maxSize);
+
+    printf("Input Max size of an Array  2 Down Bellow! \n");
+    inputArr(Arr2, maxSize);
+
+    Largest(Arr1, Arr2, maxSize);
+
+}
+//Input
+void inputArr(int Arr[], int size){
+    int i;
+	
+	for(i = 0; i < size; i++){
+		printf("Input element %d: ",i);
+		scanf("%d",&Arr[i]);
+	}
+}
+//Comparison
+void Largest(int Arr1[], int Arr2[], int size){
+    int Tabel1 = 0;
+    int Tabel2 = 0;
+    for(int i = 0; i < size; i++){
+        if(Arr1[i] < Arr2[i]){
+            Tabel2++;
+        }
+        else if(Arr1[i] > Arr2[i]){
+            Tabel1++;
+        }
+    }
+    if(Tabel1 > Tabel2){
+        printf("Tabel 1");
+    }
+    else if(Tabel1 < Tabel2){
+        printf("Tabel 2");
+    }
+    else{
+        printf("None");
+    }
+    
+}
