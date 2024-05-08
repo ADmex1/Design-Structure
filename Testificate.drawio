@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T15:42:58.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="HfK1q2_a3---uSAVKxTw" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T19:15:53.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="RcraM7DwtpwgDUdMbWQW" version="24.3.1" type="github">
   <diagram name="Page-1" id="bzlgv5gwnfcriH5inW2E">
-    <mxGraphModel dx="950" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1252" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,8 +153,8 @@
         <mxCell id="Pjfalv3s2IlQTckndLyj-47" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="780" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Pjfalv3s2IlQTckndLyj-48" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="650" y="705" width="60" height="30" as="geometry" />
+        <mxCell id="Pjfalv3s2IlQTckndLyj-48" value="M" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="626" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pjfalv3s2IlQTckndLyj-49" value="Class Diagram Course Enrollment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="520" width="190" height="60" as="geometry" />
@@ -171,11 +171,17 @@
         <mxCell id="Pjfalv3s2IlQTckndLyj-54" value="+ Enroll(): Bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Pjfalv3s2IlQTckndLyj-51">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Pjfalv3s2IlQTckndLyj-59" value="Association" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.003;entryY=0.735;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Pjfalv3s2IlQTckndLyj-42">
+        <mxCell id="Pjfalv3s2IlQTckndLyj-59" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.003;entryY=0.735;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Pjfalv3s2IlQTckndLyj-42">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="460" y="660" as="sourcePoint" />
             <mxPoint x="520" y="660" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Pjfalv3s2IlQTckndLyj-61" value="M" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pjfalv3s2IlQTckndLyj-62" value="M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="640" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
